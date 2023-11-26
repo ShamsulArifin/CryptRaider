@@ -26,13 +26,13 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-  FVector MoveOffset;
+	FVector MoveOffset;
 
-  UPROPERTY(EditAnywhere)
-  float MoveTime = 4;
+	UPROPERTY(EditAnywhere)
+	float MoveTime = 4;
 
-  UPROPERTY(EditAnywhere);
-  bool ShouldMove = false;
+	UPROPERTY(EditAnywhere);
+	bool ShouldMove = false;
 
-  FVector OriginalLocation;
+	FVector OriginalLocation;
 };
